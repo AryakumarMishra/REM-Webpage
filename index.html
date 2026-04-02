@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryakumar Mishra | Renewable Energy Management Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Aryakumar<span class="accent">.M</span></div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#study">Study</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-badge">Renewable Energy Management</div>
+            <h1 class="hero-title">Powering a <span class="gradient-text">Sustainable</span> Future</h1>
+            <p class="hero-subtitle">Exploring the frontier of clean energy technologies, sustainable practices, and innovative solutions for tomorrow's world.</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Commitment to Clean Energy</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">REM</span>
+                    <span class="stat-label">Coursework Portfolio</span>
+                </div>
+            </div>
+            <a href="#about" class="cta-button">Explore My Journey</a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">About Me</span>
+                <h2 class="section-title">The Mind Behind the <span class="accent">Mission</span></h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <span>AM</span>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>I am Aryakumar Mishra</h3>
+                    <p>An engineering student currently exploring Renewable Energy Management (REM) as part of my semester coursework. This portfolio represents my journey through the fascinating world of sustainable energy solutions, from understanding solar photovoltaic systems to analyzing wind energy potential and exploring energy storage technologies.</p>
+                    <p>Through this REM course, I have delved deep into various aspects of renewable energy including resource assessment, system design, economic analysis, and policy frameworks. Each assignment, case study, and research project has strengthened my understanding of how we can transition toward a cleaner, more sustainable energy future.</p>
+                    <p>This website serves as a comprehensive showcase of my academic work and learning progress in the field of renewable energy management.</p>
+                    <div class="about-tags">
+                        <span class="tag">Solar Energy</span>
+                        <span class="tag">Wind Power</span>
+                        <span class="tag">Energy Storage</span>
+                        <span class="tag">Sustainability</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What I Study Section -->
+    <section id="study" class="study">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Curriculum</span>
+                <h2 class="section-title">What I <span class="accent">Study</span></h2>
+                <p class="section-desc">Key topics covered in my Renewable Energy Management coursework</p>
+            </div>
+            <div class="study-grid">
+                <div class="study-card" data-topic="solar">
+                    <span class="card-icon"><i data-lucide="sun"></i></span>
+                    <h3>Solar Energy Systems</h3>
+                    <p>Photovoltaic technology, solar thermal systems, resource assessment, and grid integration of solar power.</p>
+                    <button class="explore-btn" onclick="scrollToWork()">Explore Work</button>
+                </div>
+                <div class="study-card" data-topic="wind">
+                    <span class="card-icon"><i data-lucide="wind"></i></span>
+                    <h3>Wind Energy</h3>
+                    <p>Wind turbine technology, site assessment, aerodynamics, and offshore wind farm development.</p>
+                    <button class="explore-btn" onclick="scrollToWork()">Explore Work</button>
+                </div>
+                <div class="study-card" data-topic="biomass">
+                    <span class="card-icon"><i data-lucide="leaf"></i></span>
+                    <h3>Bioenergy</h3>
+                    <p>Biomass conversion technologies, biogas production, biofuels, and waste-to-energy systems.</p>
+                    <button class="explore-btn" onclick="scrollToWork()">Explore Work</button>
+                </div>
+                <div class="study-card" data-topic="hydro">
+                    <span class="card-icon"><i data-lucide="droplets"></i></span>
+                    <h3>Hydropower</h3>
+                    <p>Small and large hydro systems, pumped storage, run-of-river plants, and environmental considerations.</p>
+                    <button class="explore-btn" onclick="scrollToWork()">Explore Work</button>
+                </div>
+                <div class="study-card" data-topic="storage">
+                    <span class="card-icon"><i data-lucide="battery-charging"></i></span>
+                    <h3>Energy Storage</h3>
+                    <p>Battery technologies, pumped hydro storage, thermal storage, and emerging storage solutions.</p>
+                    <button class="explore-btn" onclick="scrollToWork()">Explore Work</button>
+                </div>
+                <div class="study-card" data-topic="grid">
+                    <span class="card-icon"><i data-lucide="zap"></i></span>
+                    <h3>Smart Grid & Integration</h3>
+                    <p>Grid modernization, demand response, distributed generation, and renewable energy forecasting.</p>
+                    <button class="explore-btn" onclick="scrollToWork()">Explore Work</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Showcase Section -->
+    <section id="work" class="work">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Portfolio</span>
+                <h2 class="section-title">Work <span class="accent">Showcase</span></h2>
+                <p class="section-desc">Assignments, case studies, posters, presentations, and research work from my REM coursework</p>
+            </div>
+            
+            <div class="work-categories">
+                <!-- Assignments -->
+                <div class="work-category">
+                    <div class="category-header" onclick="toggleCategory(this)">
+                        <div class="category-info">
+                            <span class="category-icon"><i data-lucide="file-text"></i></span>
+                            <h3>Assignments</h3>
+                        </div>
+                        <div class="category-meta">
+                            <span class="count">0 items</span>
+                            <span class="toggle-icon">▼</span>
+                        </div>
+                    </div>
+                    <div class="category-content">
+                        
+                    </div>
+                </div>
+
+                <!-- Case Studies -->
+                <div class="work-category">
+                    <div class="category-header" onclick="toggleCategory(this)">
+                        <div class="category-info">
+                            <span class="category-icon"><i data-lucide="search"></i></span>
+                            <h3>Case Studies</h3>
+                        </div>
+                        <div class="category-meta">
+                            <span class="count">0 items</span>
+                            <span class="toggle-icon">▼</span>
+                        </div>
+                    </div>
+                    <div class="category-content">
+                        
+                    </div>
+                </div>
+
+                <!-- Posters -->
+                <div class="work-category">
+                    <div class="category-header" onclick="toggleCategory(this)">
+                        <div class="category-info">
+                            <span class="category-icon"><i data-lucide="image"></i></span>
+                            <h3>Posters</h3>
+                        </div>
+                        <div class="category-meta">
+                            <span class="count">2 items</span>
+                            <span class="toggle-icon">▼</span>
+                        </div>
+                    </div>
+                    <div class="category-content">
+                        <div class="work-item">
+                            <span class="item-title">REM Poster</span>
+                            <a href="data/posters/rem-poster.png" class="view-btn" download>View</a>
+                        </div>
+                        <div class="work-item">
+                            <span class="item-title">REM Mind Map</span>
+                            <a href="data/posters/rem-mind-map.png" class="view-btn" download>View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Presentations -->
+                <div class="work-category">
+                    <div class="category-header" onclick="toggleCategory(this)">
+                        <div class="category-info">
+                            <span class="category-icon"><i data-lucide="presentation"></i></span>
+                            <h3>Presentations</h3>
+                        </div>
+                        <div class="category-meta">
+                            <span class="count">0 items</span>
+                            <span class="toggle-icon">▼</span>
+                        </div>
+                    </div>
+                    <div class="category-content">
+                        
+                    </div>
+                </div>
+
+                <!-- Research Work -->
+                <div class="work-category">
+                    <div class="category-header" onclick="toggleCategory(this)">
+                        <div class="category-info">
+                            <span class="category-icon"><i data-lucide="flask-conical"></i></span>
+                            <h3>Research Work</h3>
+                        </div>
+                        <div class="category-meta">
+                            <span class="count">1 items</span>
+                            <span class="toggle-icon">▼</span>
+                        </div>
+                    </div>
+                    <div class="category-content">
+                        <div class="work-item">
+                            <span class="item-title">Video Summary Report</span>
+                            <a href="data/research/video-summary.pdf" class="view-btn" download>View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz" class="quiz">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Test Your Knowledge</span>
+                <h2 class="section-title">REM <span class="accent">Quiz</span></h2>
+                <p class="section-desc">Challenge yourself with 10 questions on renewable energy concepts</p>
+            </div>
+            
+            <div class="quiz-container">
+                <div id="quiz-start" class="quiz-start">
+                    <div class="quiz-icon"><i data-lucide="target"></i></div>
+                    <h3>Ready to Test Your Knowledge?</h3>
+                    <p>10 questions covering solar, wind, bioenergy, and more. See how much you know about renewable energy!</p>
+                    <button class="cta-button" onclick="startQuiz()">Start Quiz</button>
+                </div>
+
+                <div id="quiz-question" class="quiz-question hidden">
+                    <div class="quiz-progress">
+                        <div class="progress-bar">
+                            <div id="progress-fill" class="progress-fill"></div>
+                        </div>
+                        <span id="question-number">Question 1/10</span>
+                    </div>
+                    <h3 id="question-text">Loading question...</h3>
+                    <div id="options-container" class="options-container">
+                        <!-- Options will be inserted here -->
+                    </div>
+                </div>
+
+                <div id="quiz-result" class="quiz-result hidden">
+                    <span class="result-icon"><i data-lucide="trophy"></i></span>
+                    <h3 id="result-title">Quiz Complete!</h3>
+                    <p id="result-message">You scored X out of 10</p>
+                    <div class="result-score">
+                        <span id="score-value">0</span>/10
+                    </div>
+                    <button class="cta-button" onclick="restartQuiz()">Try Again</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Get in Touch</span>
+                <h2 class="section-title">Contact <span class="accent">Me</span></h2>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <span class="contact-icon"><i data-lucide="mail"></i></span>
+                        <h3>Email</h3>
+                        <p>aryakumar.mishra@vit.edu.in</p>
+                    </div>
+                    <div class="contact-card">
+                        <span class="contact-icon"><i data-lucide="graduation-cap"></i></span>
+                        <h3>University</h3>
+                        <p>Department of Electronics and Computer Science</p>
+                    </div>
+                    <div class="contact-card">
+                        <span class="contact-icon"><i data-lucide="github"></i></span>
+                        <h3>GitHub</h3>
+                        <p>github.com/AryakumarMishra</p>
+                    </div>
+                </div>
+                
+                <form class="contact-form" onsubmit="handleSubmit(event)">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required placeholder="your@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" required placeholder="Subject of your message">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" required placeholder="Your message..."></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="footer-logo">Aryakumar<span class="accent">.M</span></span>
+                    <p>Renewable Energy Management Portfolio</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#hero">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#study">Study</a>
+                    <a href="#work">Work</a>
+                    <a href="#quiz">Quiz</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>2025 Aryakumar Mishra. Built for REM Coursework Assignment.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>lucide.createIcons();</script>
+</body>
+</html>
